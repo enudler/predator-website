@@ -48,15 +48,9 @@
         <div class="spacer20">
           <div class="div-block"></div>
         </div>
-        <a href="https://zooz.github.io/predator/about.html" target="_blank" class="headerlink headerlinkbold w-nav-link">Docs</a>
+        <a href="https://zooz.github.io/predator" target="_blank" class="headerlink headerlinkbold w-nav-link">Docs</a>
         <a href="https://github.com/Zooz/predator" target="_blank" class="headerlink headerlinkbold w-inline-block">
           <div class="headertextslack">GitHub</div><img src="images/github.svg" alt="Github" class="headerlogogithub">
-        </a>
-        <a href="https://twitter.com/DevPredator" target="_blank" class="headerlink headerlinkbold w-inline-block">
-          <div class="headertextslack">Twitter</div><img src="images/Twitter_Social_Icon_Circle_Color.png" width="24" alt="Twitter" class="headerlogotwitter">
-        </a>
-        <a href="https://join.slack.com/t/predator-dev/shared_invite/enQtNjgwMzE2NjM3MDcyLTg5YTIwMGQyNjZlMjQ4MDNjOTk5YTkwMWYwNzJkOWFmM2QwOGY0ODc3MDU3MWRkYTAwMjRhMjBhOTM1MzFmMjU" target="_blank" class="headerlink headerlinkbold w-inline-block">
-          <div class="headertextslack">Join our Slack Channel</div><img src="images/slack.svg" alt="Slack Channel" class="headerlogoslack">
         </a>
       </nav>
       <div class="menu-button w-nav-button">
@@ -66,11 +60,11 @@
   </div>
   <div id="home" class="sectionhero wf-section">
     <div class="herointro">
-      <h1 class="h1">predator</h1><strong class="herostoryunlimited">v1.5 is out now with functional testing and webhooks!</strong>
+      <h1 class="h1">predator</h1><strong class="herostoryunlimited">v1.7 is out now with functional testing, webhooks and chaos mesh integration!</strong>
       <div class="herotagline">
         <h2 class="h2">Ruthless API performance testing</h2>
         <h6 class="h6 h6left">free. Distributed. open-source.</h6>
-        <p class="paragraph"><em class="herostorytitle"></em>Predator allows you to execute <strong class="herostoryunlimited">unlimited</strong> load tests, with an <strong class="herostoryunlimited">unlimited</strong> number of instances, and with an <strong class="herostoryunlimited">unlimited</strong> number of virtual users - all while using your own cloud  resources!</p>
+        <p class="paragraph"><em class="herostorytitle"></em>Predator allows you to execute <strong class="herostoryunlimited">unlimited</strong> load tests, with an <strong class="herostoryunlimited">unlimited</strong> number of instances, and with an <strong class="herostoryunlimited">unlimited</strong> number of virtual users - all while using your own cloud  resources!</p>
       </div>
       <div class="heroctabox">
         <a href="#learnmore" class="predatorcta w-button">Learn more</a>
@@ -83,19 +77,19 @@
     <div class="div-block-10">
       <div class="learnbox learnboxflex"><img src="images/built-for-the-cloud.svg" alt="" class="learnimg">
         <h6 class="h6 pointsh6">Built for the Cloud</h6>
-        <p class="learnparagraph">Predator is built to take advantage of Kubernetes and DC/OS. It’s integrated with those platforms and is able to manage the load generator lifecycles by itself.</p>
+        <p class="learnparagraph">Predator is built to take advantage of Kubernetes. It's integrated with the platform and is able to manage the load generator lifecycles by itself.</p>
       </div>
       <div class="learnbox learnboxflex"><img src="images/one-click-Installation.svg" alt="" class="learnimg">
         <h6 class="h6 pointsh6">One-click Installation</h6>
-        <p class="learnparagraph">Predator can be installed with just one click in Kubernetes and DC/OS, or on any other machine running Docker.</p>
+        <p class="learnparagraph">Predator can be installed with just one click in Kubernetes, or on any other machine running Docker.</p>
       </div>
       <div class="learnbox learnboxflex"><img src="images/distributed-load.svg" alt="" class="learnimg">
         <h6 class="h6 pointsh6">Distributed Load</h6>
         <p class="learnparagraph">Predator supports an unlimited number of load generators that produce multiple load runners concurrently. Predator will aggregate the result of those runners in real-time into a beautiful report.</p>
       </div>
       <div class="learnbox learnboxflex"><img src="images/five-storage-backends.svg" alt="" class="learnimg">
-        <h6 class="h6 pointsh6">Five Storage Backends</h6>
-        <p class="learnparagraph">Predator provides out-of-the box functionality for persisting data in Cassandra, Postgres, MySQL, MSSQL and SQLITE.</p>
+        <h6 class="h6 pointsh6">Four Storage Backends</h6>
+        <p class="learnparagraph">Predator provides out-of-the box functionality for persisting data in Postgres, MySQL, MSSQL and SQLITE.</p>
       </div>
     </div>
     <div class="div-block-4">
@@ -108,31 +102,12 @@
       <a href="https://hub.helm.sh/charts/zooz/predator" target="_blank" class="installationbox w-inline-block"><img src="images/logo-kubernetes.svg" alt="" class="installationimg">
         <p class="installationparagraph">Install through Helm</p>
       </a>
-      <a href="https://universe.dcos.io/#/package/predator/version/latest" target="_blank" class="installationbox w-inline-block"><img src="images/logo-dcos.svg" alt="" class="installationimg">
-        <p class="installationparagraph">Install through Universe</p>
-      </a>
       <a href="https://zooz.github.io/predator/installation.html#docker" target="_blank" class="installationbox w-inline-block"><img src="images/logo-docker.svg" alt="" class="installationimg">
         <p class="installationparagraph">Check our Docs</p>
       </a>
     </div>
   </div>
   <div id="team" class="sectionteam wf-section">
-    <div class="teamcontact w-form">
-      <h6 class="h6 contacth6">Write us!</h6>
-      <form id="wf-form-predator-contact-form" name="wf-form-predator-contact-form" data-name="predator contact form" method="get" class="form">
-        <div class="div-block-6">
-          <div class="formhalf"><label for="name" class="field-label">Name</label><input type="text" class="teamcontactinput w-input" maxlength="256" name="name" data-name="Name" placeholder="" id="name"></div>
-          <div class="spacer60 spacerhidden"></div>
-          <div class="formhalf"><label for="email">Email Address</label><input type="email" class="teamcontactinput w-input" maxlength="256" name="email" data-name="Email" placeholder="" id="email" required=""></div>
-        </div><label for="Message">Message</label><textarea required="" maxlength="5000" id="Message" name="Message" data-name="Message" placeholder="" class="teamcontactinput teaminputmessage w-input"></textarea><input type="submit" value="Submit" data-wait="Please wait..." class="predatorcta teaminputcta w-button">
-      </form>
-      <div class="w-form-done">
-        <div>Thank you! Your submission has been received!</div>
-      </div>
-      <div class="w-form-fail">
-        <div>Oops! Something went wrong while submitting the form.</div>
-      </div>
-    </div>
     <div class="spacer60"></div>
     <h6 class="h6">Curious? Sniff around our articles</h6>
     <div class="spacer60"></div>
